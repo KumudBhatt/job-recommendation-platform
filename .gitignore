@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# dotenv environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+.env/
+.venv/
+
+# Python specific
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Uploads or user-generated content
+uploads/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore frontend and backend lock files at root
+/frontend/node_modules/
+/frontend/package-lock.json
+/backend/node_modules/
+/backend/package-lock.json
+/ai-service/venv/
+/ai-service/__pycache__/
+/ai-service/.env 
